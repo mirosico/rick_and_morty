@@ -78,7 +78,7 @@ export const SemitransparentBackgroundForModal = styled.div`
 export const CharacterDetailsModal = styled(CharacterInfo)`
   font-size: 1.2rem;
   position: relative;
-  margin: 5rem auto;
+  margin: 2rem auto;
   border: none;
   border-radius: 0.2rem;
   width: 50%;
