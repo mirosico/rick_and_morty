@@ -109,15 +109,14 @@ export const CharacterDetailedInfo = styled.div`
   }
 `
 export const ImageOnDetailPage = styled(CharacterImage)`
-  width: 50%;
+  width: auto;
   height: auto;
-  max-width: 300px;
   margin: 0 auto;
   padding: 2rem 0 1rem;
   display: block;
   border-radius: 0.2rem;
   cursor: default;
-  max-height: 250px;
+  max-height: 200px;
   object-fit: contain;
   object-position: center;
 
