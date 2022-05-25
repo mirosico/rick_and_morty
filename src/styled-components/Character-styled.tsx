@@ -117,11 +117,13 @@ export const ImageOnDetailPage = styled(CharacterImage)`
   display: block;
   border-radius: 0.2rem;
   cursor: default;
+  max-height: 250px;
+  object-fit: contain;
+  object-position: center;
+
   @media (max-width: 750px) {
     width: 90%;
     max-height: 150px;
-    object-fit: contain;
-    object-position: center;
     min-height: auto;
     margin-bottom: 1rem;
   }
